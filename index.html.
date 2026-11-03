@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Học Cấp Tốc 11 — Chọn môn ôn tập</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800;900&display=swap');
+:root{--bg:#0b1020;--panel:#141c32;--panel2:#1b2742;--line:#2b3857;--text:#f2f6ff;--muted:#a4b1ca;--mint:#67e8c1;--blue:#83a9ff;--pink:#ff8bb4;--yellow:#ffd477;color-scheme:dark;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+*{box-sizing:border-box}html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:radial-gradient(ellipse at 15% 0%,#20365b 0,transparent 38%),radial-gradient(ellipse at 95% 15%,#3b2455 0,transparent 32%),var(--bg);color:var(--text);font-family:'Be Vietnam Pro',system-ui,sans-serif;min-height:100vh}
+.app{max-width:960px;margin:auto;padding:22px}
+.top{display:flex;align-items:center;justify-content:space-between;gap:14px;margin-bottom:24px}
+.brand{display:flex;align-items:center;gap:12px}
+.logo{width:48px;height:48px;border-radius:16px;background:linear-gradient(135deg,var(--mint),var(--blue));display:grid;place-items:center;color:#102033;font-size:25px;box-shadow:0 8px 28px #67e8c133}
+.brand h1{font-size:19px;margin:0;font-weight:900;letter-spacing:.3px}
+.brand small{color:var(--muted);font-size:11px}
+.chip{padding:9px 13px;border:1px solid var(--line);background:#121a2d;border-radius:99px;color:var(--muted);font-size:12px}
+.hero{border:1px solid #425273;background:linear-gradient(115deg,#1d3850dd,#252849dd 58%,#40284cdd);border-radius:26px;padding:27px;margin-bottom:20px}
+.eyebrow{color:var(--mint);font-size:11px;font-weight:800;letter-spacing:1.8px;text-transform:uppercase}
+.hero h2{font-size:clamp(25px,4vw,38px);line-height:1.2;margin:10px 0}
+.hero p{color:#c5d1e6;max-width:620px;margin:0;line-height:1.7;font-size:14px}
+.hero-bottom{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}
+.stat-pill{background:#0d172b88;border:1px solid #ffffff1c;padding:9px 12px;border-radius:12px;font-size:12px;color:#d9e5f7}
+.nav-title{font-size:10px;color:#7f91b1;letter-spacing:1.5px;font-weight:800;padding:8px 4px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px}
+.card{display:block;text-decoration:none;color:var(--text);padding:22px;background:#18243b;border:1px solid var(--line);border-radius:22px;transition:.2s}
+.card:hover,.card:focus-visible{transform:translateY(-3px);border-color:#6ce4c4;box-shadow:0 10px 30px #0003;outline:0}
+.ico{width:56px;height:56px;border-radius:17px;display:grid;place-items:center;font-size:28px;margin-bottom:16px;color:#102033}
+.hoa .ico{background:linear-gradient(135deg,var(--mint),var(--blue))}
+.su .ico{background:linear-gradient(135deg,var(--yellow),var(--pink))}
+.card h3{margin:0 0 6px;font-size:20px;font-weight:800}
+.card p{margin:0 0 16px;color:var(--muted);font-size:13px;line-height:1.6}
+.go{font-weight:800;font-size:13px;color:var(--mint)}
+.foot{margin-top:22px;color:#7f91b1;font-size:12px}
+</style>
+</head>
+<body>
+<div class="app">
+  <div class="top">
+    <div class="brand"><div class="logo">🎓</div><div><h1>Học Cấp Tốc 11</h1><small>Ôn tập giữa kì I</small></div></div>
+    <span class="chip">Chọn môn để bắt đầu</span>
+  </div>
+  <div class="hero">
+    <div class="eyebrow">Học nhanh · Nhớ lâu · Tự tin kiểm tra</div>
+    <h2>Chọn môn bạn muốn ôn hôm nay</h2>
+    <p>Luyện trắc nghiệm theo đề cương, làm bài kiểm tra thử và ôn lại các câu đã làm sai.</p>
+    <div class="hero-bottom"><span class="stat-pill">2 môn</span><span class="stat-pill">Trắc nghiệm</span><span class="stat-pill">Kiểm tra thử</span><span class="stat-pill">Ôn câu sai</span></div>
+  </div>
+  <div class="nav-title">MÔN HỌC</div>
+  <div class="grid">
+    <a class="card hoa" href="/hoa.html" target="_blank" rel="noopener">
+      <div class="ico">🧪</div>
+      <h3>Hoá học 11</h3>
+      <p>Cân bằng hoá học, sự điện li, pH, nitrogen và sulfur. Trắc nghiệm, Đúng/Sai, Trả lời ngắn.</p>
+      <span class="go">Vào ôn tập →</span>
+    </a>
+    <a class="card su" href="/lsu.html" target="_blank" rel="noopener">
+      <div class="ico">📜</div>
+      <h3>Lịch sử 11</h3>
+      <p>Cách mạng tư sản và sự xác lập, phát triển của chủ nghĩa tư bản. 45 câu trắc nghiệm theo đề cương.</p>
+      <span class="go">Vào ôn tập →</span>
+    </a>
+  </div>
+  <div class="foot">Sẽ có thêm các môn khác.</div>
+</div>
+</body>
+</html>
